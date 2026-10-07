@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A form for users to fill in thier name, email, password, gender and profile
+    picture">
+    <meta name="keywords" content="form, html, css, javascript">
+    <meta name="author" content="John Doe">
+    <title>Class One Week Three</title>
+</head>
+
+<body>
+    <!-- A form for users to fill in thier name, email, password, gender and profile picture -->
+    <form action="">
+        <label for="name">Full Name</label>
+        <br>
+        <input type="text" placeholder="John Doe" id="name" name="full_name">
+        <br>
+        <label for="email">Email Address</label>
+        <br>
+        <input type="email" placeholder="johndoe@example.com">
+        <br>
+        <label for="password">Create a Password</label>
+        <br>
+        <input type="password" placeholder="Create a Password">
+        <br>
+        <label for="gender">Gender</label>
+        <br>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Others</label>
+        <br>
+        <br>
+        <label for="course">Course</label>
+        <br>
+        <input type="checkbox" name="course" id="python" value="python">
+        <label for="python">Python</label>
+        <input type="checkbox" name="course" id="html" value="html" checked>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="course" id="css" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="course" id="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" name="course" id="typescript" value="typescript">
+        <label for="typescript">TypeScript</label>
+        <br>
+        <label for="profile-picture">Profile Picture</label>
+        <br>
+        <input type="file" name="profile-picture" id="profile-picture">
+        <br>
+        <label for="country">Country</label>
+        <br>
+        <select name="country" id="country">
+            <option value="nigeria" selected>Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select>
+        <br>
+        <label for="address">Address</label>
+        <br>
+        <textarea name="address" id="address" cols="50" rows="10" placeholder="Enter your address"></textarea>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Id - unique identifier for elements -->
+    <!-- Class - common identifier for elements -->
+
+    <div>
+        <span>Hello</span>
+        <span>World</span>
+    </div>
+
+    <video src="https://www.youtube.com/watch?v=sMiRI3-SLW0" controls autoplay loop muted width="500"
+        height="250"></video>
+    <audio src="https://www.youtube.com/watch?v=sMiRI3-SLW0&themeRefresh=1" controls autoplay></audio>
+
+    <iframe src="https://en.wikipedia.org/wiki/Google" frameborder="5" width="500" height="250"></iframe>
+
+</body>
+
+</html>
