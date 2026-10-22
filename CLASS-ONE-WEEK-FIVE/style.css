@@ -1,0 +1,59 @@
+#main {
+    height: 1500px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    overflow: auto;
+}
+
+.inner {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    font-size: 60px;
+}
+
+#inner1 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+#inner2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: purple;
+    z-index: 15;
+}
+
+#inner3 {
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#inner4 {
+    background-color: orange;
+    position: sticky;
+    top: 80px;
+    font-size: 14px;
+}
+
+#inner4 img {
+    float: right;
+}
+
+#inner4>img {
+    width: 150px;
+}
+
+#inner4 h6~p {
+    color: red;
+    font-size: 10px;
+}
+
+/* Combinators in CSS - space, child - (>), adjacent sibling - (+), subsequent sibling - (~) */
