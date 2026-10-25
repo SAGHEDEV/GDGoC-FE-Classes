@@ -1,0 +1,82 @@
+/* selector:pseudo-class{
+    styles
+} */
+
+/* interactive pseudo-classes */
+/* hover,active,focus,link, visited, target */
+a:link {
+    color: green;
+}
+
+a:hover {
+    font-size: 18px;
+    color: brown;
+}
+
+a:active {
+    color: black;
+}
+
+input:focus {
+    width: 400px;
+    border: 4px solid green;
+
+}
+
+
+/* structural pseudo-classes */
+/* first-child, last-child,nth-child, first-of-type, last-of-type,nth-of-type */
+div:first {}
+
+div:last-child {}
+
+div:nth-child(4) {}
+
+/* pseudo-elements */
+/* selector::pseudo-element{
+
+} */
+
+
+p::first-line {
+    font-size: 30px;
+    text-shadow: 3px 3px 3px red;
+}
+
+p::first-letter {
+    font-size: 40px;
+    color: red;
+}
+
+p::before {
+    content: "This is the content before the paragraph content that still lives inside the paragraph.";
+    color: aqua;
+}
+
+p::after {
+    content: "This is the content before the paragraph content that still lives inside the paragraph.";
+    color: aqua;
+}
+
+/* Flexbox Layout system */
+.flex-container {
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: flex-end;
+    gap: 10px;
+}
+
+.flex-container div {
+    width: 100px;
+    /* height: 100px; */
+    background-color: green;
+    color: white;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
