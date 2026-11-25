@@ -8,6 +8,10 @@
 // var
 // const
 
+// {
+
+// }
+
 // let x = 50;
 
 // Operations and Conditionals
